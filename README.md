@@ -38,4 +38,8 @@
 
 * Iniciar tablespace: ALTER TABLESPACE DATA01 ONLINE;
 
+* Arquivo físico dos data files: CD $ORACLE_DATA;
+
 * Alteração de arquivo físico data file: Altera somente o ponteiro e não cria uma novo data file. Copiar via sistema operacioal.. Mover a tablespace para offline. ALTER TABLESPACE DATA01 RENAME DATAFILE "$ORACLE_DATA/ORACLE1/USERDATA01.DBF" TO "$HOME/ORACLE02/USERDATA01.DBF";
+
+* Excluir tablespece: DROP TABLESPACE DATA01 INCLUDING CONTENTS AND DATAFILES;
