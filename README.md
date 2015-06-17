@@ -8,7 +8,7 @@
 
 * Usuário e senha: SYSTEM/MANAGER;
 
-* Arquivo físico em disco: DATA01.DBF;
+* Arquivo físico em disco: DATA FILE -> DATA01.DBF;
 
 * Visualizar estrutura física: CD $ORACLE_HOME;
 
@@ -17,3 +17,9 @@
 * Tablespace vão se adequar aos databases;
 
 * Segmento: ESTRUTURA LÓGICA DO BANCO DE DADOS;
+
+* Uma tablespace pode conter uma ou mais data files;
+
+* Estrutura física: DATA FILE.
+
+* Estrutura lógica: SEGMENTS, TABLESPACE...
