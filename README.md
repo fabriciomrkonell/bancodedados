@@ -22,4 +22,10 @@
 
 * Estrutura física: DATA FILE.
 
-* Estrutura lógica: SEGMENTS, TABLESPACE...
+* Estrutura lógica: SEGMENTS, TABLESPACE...;
+ 
+* Verificar os arquivos físicos das tablespaces: SELECT * FROM DBA_DATA_FILES;
+
+* Adicionar novo data file em uma tablespace: ALTER TABLESPACE DATA01 ADD DATAFILE "$ORACLE_DATA/data01_01.dbf" SIZE 5M;
+
+
