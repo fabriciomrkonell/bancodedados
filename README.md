@@ -43,3 +43,5 @@
 * Alteração de arquivo físico data file: Altera somente o ponteiro e não cria uma novo data file. Copiar via sistema operacioal.. Mover a tablespace para offline. ALTER TABLESPACE DATA01 RENAME DATAFILE "$ORACLE_DATA/ORACLE1/USERDATA01.DBF" TO "$HOME/ORACLE02/USERDATA01.DBF";
 
 * Excluir tablespece: DROP TABLESPACE DATA01 INCLUDING CONTENTS AND DATAFILES;
+
+* Espaço livres das tablespace: SELECT TABLESPACE_NAME, SUM(BYTES)/1024 FROM DBA_FREE_SPACE GROUP BY TABLESPACE_NAME;
