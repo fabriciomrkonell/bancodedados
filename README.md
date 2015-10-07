@@ -1,3 +1,7 @@
+* Usuário e senha do sistema: ORACLE/ORACLE;
+
+---------------------
+
 * Tablespace é: ÁREA/ESTRUTURA LÓGICA. PARA CLASSIFICAR E ORGANIZAR O BANCO DE DADOS. GAVETA.
 
 * Alterar tablespace para read only: ALTER TABLESPACE NOME_DA_TABLESPACE READ ONLY;
