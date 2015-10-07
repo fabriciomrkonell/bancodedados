@@ -6,6 +6,9 @@
 
 * Deletar usuário e seus objeto: DROP USER aaron CASCADE;
 
+*  Verificar QUOTAS de um usuário: SELECT tablespace_name, sum(bytes)/1024 Quota FROM dba_ts_quotas WHERE username = 'AARON' group by tablespace_name;
+
+
 ---------------------
 
 * Tablespace é: ÁREA/ESTRUTURA LÓGICA. PARA CLASSIFICAR E ORGANIZAR O BANCO DE DADOS. GAVETA.
