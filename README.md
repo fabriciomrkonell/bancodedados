@@ -1,5 +1,7 @@
 * Usuário e senha do sistema: ORACLE/ORACLE;
 
+* Adicionar um usuário a uma tablespace: CREATE USER aaron IDENTIFIED BY soccer DEFAULT TABLESPACE data TEMPORARY TABLESPACE temp QUOTA 15M ON data QUOTA 10M ON users PASSWORD EXPIRE;
+
 ---------------------
 
 * Tablespace é: ÁREA/ESTRUTURA LÓGICA. PARA CLASSIFICAR E ORGANIZAR O BANCO DE DADOS. GAVETA.
