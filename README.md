@@ -4,6 +4,8 @@
 
 * Alterar a cota do usuário: ALTER USER aaron QUOTA 0 ON USERS;
 
+* Deletar usuário e seus objeto: DROP USER aaron CASCADE;
+
 ---------------------
 
 * Tablespace é: ÁREA/ESTRUTURA LÓGICA. PARA CLASSIFICAR E ORGANIZAR O BANCO DE DADOS. GAVETA.
