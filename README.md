@@ -2,6 +2,8 @@
 
 * Adicionar um usuário a uma tablespace: CREATE USER aaron IDENTIFIED BY soccer DEFAULT TABLESPACE data TEMPORARY TABLESPACE temp QUOTA 15M ON data QUOTA 10M ON users PASSWORD EXPIRE;
 
+* Alterar a cota do usuário: ALTER USER aaron QUOTA 0 ON USERS;
+
 ---------------------
 
 * Tablespace é: ÁREA/ESTRUTURA LÓGICA. PARA CLASSIFICAR E ORGANIZAR O BANCO DE DADOS. GAVETA.
