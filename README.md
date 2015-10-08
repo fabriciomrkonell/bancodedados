@@ -8,6 +8,9 @@
 
 *  Verificar QUOTAS de um usuário: SELECT tablespace_name, sum(bytes)/1024 Quota FROM dba_ts_quotas WHERE username = 'AARON' group by tablespace_name;
 
+* Adicionar privilégios: GRANT CREATE SESSION TO aaron WITH ADMIN OPTIONS;
+
+* Deletar privilégios: REVOKE CREATE TABLE FROM aaron;
 
 ---------------------
 
