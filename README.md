@@ -1,3 +1,5 @@
+* Auditoria serve para fins de segunrança e problemas com o banco de dados, por exemplo sumindo registro em uma tabela;
+
 * Usuário e senha do sistema: ORACLE/ORACLE;
 
 * Adicionar um usuário a uma tablespace: CREATE USER aaron IDENTIFIED BY soccer DEFAULT TABLESPACE data TEMPORARY TABLESPACE temp QUOTA 15M ON data QUOTA 10M ON users PASSWORD EXPIRE;
